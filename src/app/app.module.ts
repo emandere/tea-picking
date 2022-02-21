@@ -5,6 +5,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule} from "@angular/material/button";
+import { MatListModule} from "@angular/material/list";
+
 
 
 
@@ -22,7 +24,8 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
