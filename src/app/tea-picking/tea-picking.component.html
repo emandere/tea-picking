@@ -3,7 +3,7 @@
   <mat-card-title>Add New Tea Picking Day</mat-card-title>
   <mat-card-subtitle>Enter Data Below</mat-card-subtitle>
   <mat-card-content align="left">
-    <mat-form-field appearance="fill">
+    <mat-form-field class="example-full-width" appearance="fill">
       <mat-label>Date tea was picked</mat-label>
     <!-- #docregion toggle -->
       <input matInput [matDatepicker]="picker">
@@ -11,7 +11,7 @@
       <mat-datepicker #picker></mat-datepicker>
     <!-- #enddocregion toggle -->
     </mat-form-field>
-    <mat-form-field appearance="fill">
+    <mat-form-field class="example-full-width" appearance="fill">
       <mat-label>Block Picked</mat-label>
       <select matNativeControl required>
         <option value="1">Block 1</option>
